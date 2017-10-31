@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A73460B4-963D-4A86-816F-5D1A907F0602}</ProjectGuid>
+    <RootNamespace>FlowStream</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\jange\Desktop\fff\Ultimate_Toolbox\lib\Libs;F:\정보올림피아드\fff\Ultimate_Toolbox\lib\Libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Allocation.h" />
+    <ClInclude Include="BufferDC.h" />
+    <ClInclude Include="ConditionCheck.h" />
+    <ClInclude Include="CreateVariable.h" />
+    <ClInclude Include="DataInput.h" />
+    <ClInclude Include="DataIO.h" />
+    <ClInclude Include="DataOutput.h" />
+    <ClInclude Include="Decision.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="ExpressionImpl.h" />
+    <ClInclude Include="FCCreate.h" />
+    <ClInclude Include="FCDialog.h" />
+    <ClInclude Include="FCEnd.h" />
+    <ClInclude Include="FCIf.h" />
+    <ClInclude Include="FCIfEnd.h" />
+    <ClInclude Include="FCInput.h" />
+    <ClInclude Include="FCOutput.h" />
+    <ClInclude Include="FCPrint.h" />
+    <ClInclude Include="FCSet.h" />
+    <ClInclude Include="FCStart.h" />
+    <ClInclude Include="FCWhileEnd.h" />
+    <ClInclude Include="FCWhileStart.h" />
+    <ClInclude Include="FlowObject.h" />
+    <ClInclude Include="FunctionValue.h" />
+    <ClInclude Include="Interpreter.h" />
+    <ClInclude Include="InterpreterSymbol.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="ListObject.h" />
+    <ClInclude Include="LockSpliterView.h" />
+    <ClInclude Include="FlowStream.h" />
+    <ClInclude Include="FlowStreamDoc.h" />
+    <ClInclude Include="FlowStreamView.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Loop.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ObjectFlow.h" />
+    <ClInclude Include="ObjectFlowView.h" />
+    <ClInclude Include="ObjectListDialog.h" />
+    <ClInclude Include="ObjectListView.h" />
+    <ClInclude Include="ObjectPropertyView.h" />
+    <ClInclude Include="Paser.h" />
+    <ClInclude Include="PlayView.h" />
+    <ClInclude Include="Prepare.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="ProjectCreation.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Statement.h" />
+    <ClInclude Include="StatementImpl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringPool.h" />
+    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="SymbolProperty.h" />
+    <ClInclude Include="SymbolTable.h" />
+    <ClInclude Include="SymbolTree.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Terminal.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="Value.h" />
+    <ClInclude Include="VM.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Allocation.cpp" />
+    <ClCompile Include="BufferDC.cpp" />
+    <ClCompile Include="ConditionCheck.cpp" />
+    <ClCompile Include="CreateVariable.cpp" />
+    <ClCompile Include="DataInput.cpp" />
+    <ClCompile Include="DataIO.cpp" />
+    <ClCompile Include="DataOutput.cpp" />
+    <ClCompile Include="Decision.cpp" />
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="ExpressionImpl.cpp" />
+    <ClCompile Include="FCCreate.cpp" />
+    <ClCompile Include="FCDialog.cpp" />
+    <ClCompile Include="FCEnd.cpp" />
+    <ClCompile Include="FCIf.cpp" />
+    <ClCompile Include="FCIfEnd.cpp" />
+    <ClCompile Include="FCInput.cpp" />
+    <ClCompile Include="FCOutput.cpp" />
+    <ClCompile Include="FCPrint.cpp" />
+    <ClCompile Include="FCSet.cpp" />
+    <ClCompile Include="FCStart.cpp" />
+    <ClCompile Include="FCWhileEnd.cpp" />
+    <ClCompile Include="FCWhileStart.cpp" />
+    <ClCompile Include="FlowObject.cpp" />
+    <ClCompile Include="FunctionValue.cpp" />
+    <ClCompile Include="Interpreter.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="ListObject.cpp" />
+    <ClCompile Include="LockSpliterView.cpp" />
+    <ClCompile Include="FlowStream.cpp" />
+    <ClCompile Include="FlowStreamDoc.cpp" />
+    <ClCompile Include="FlowStreamView.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Loop.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ObjectFlow.cpp" />
+    <ClCompile Include="ObjectFlowView.cpp" />
+    <ClCompile Include="ObjectListDialog.cpp" />
+    <ClCompile Include="ObjectListView.cpp" />
+    <ClCompile Include="ObjectPropertyView.cpp" />
+    <ClCompile Include="Paser.cpp" />
+    <ClCompile Include="PlayView.cpp" />
+    <ClCompile Include="Prepare.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="ProjectCreation.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Statement.cpp" />
+    <ClCompile Include="StatementImpl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringPool.cpp" />
+    <ClCompile Include="Symbol.cpp" />
+    <ClCompile Include="SymbolProperty.cpp" />
+    <ClCompile Include="SymbolTable.cpp" />
+    <ClCompile Include="SymbolTree.cpp" />
+    <ClCompile Include="Terminal.cpp" />
+    <ClCompile Include="Value.cpp" />
+    <ClCompile Include="VM.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FlowStream.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\FlowStream.ico" />
+    <Image Include="res\FlowStreamDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FlowStream.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="FlowStream.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

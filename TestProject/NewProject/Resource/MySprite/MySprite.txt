@@ -1,0 +1,21 @@
+// 시작
+INT xPos
+INT yPos
+INT width
+INT height
+xPos = 51
+yPos = 149
+width = 120
+height = 70
+while   1
+{
+if xPos <= 200
+{
+xPos += 2
+}
+else
+{
+xPos = 0
+}
+}
+// 종료

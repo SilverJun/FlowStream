@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Others">
+      <UniqueIdentifier>{1a5e5a04-3f92-42aa-bee9-425a8c285c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectListView">
+      <UniqueIdentifier>{c67ee2b1-4f06-402c-8d5c-d91c3314f147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectListView\ObjectList">
+      <UniqueIdentifier>{161c8684-804d-461e-817c-618790d49c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectListView\Dialog">
+      <UniqueIdentifier>{ce93fb8f-8d75-45ea-bd74-0a66a92306f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPropertyView">
+      <UniqueIdentifier>{3244d64b-543a-4a22-9f0a-97d50ca9f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView">
+      <UniqueIdentifier>{6553672a-1b07-4152-a8ed-d67c9969f4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SymbolProperty">
+      <UniqueIdentifier>{f63e3ef5-a37e-408f-8083-02e7a65a54c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SymbolTree">
+      <UniqueIdentifier>{7483b084-1bf4-4ca9-8cd9-4527567fb50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow">
+      <UniqueIdentifier>{f2393b71-eaf1-4caa-befa-7b1c062f87ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol">
+      <UniqueIdentifier>{8837474c-a251-4d4c-bc82-5ea7892fb18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base">
+      <UniqueIdentifier>{1ff0302c-9a5c-474d-ad7f-5619845c2f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape">
+      <UniqueIdentifier>{faa36d85-94fc-487a-9ae8-398ec01770b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Base">
+      <UniqueIdentifier>{f0b6d5f7-0c53-41b8-a981-98668195444d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\DataIO">
+      <UniqueIdentifier>{c16a4176-46c0-4617-a3ac-f79d3b8805a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Decision">
+      <UniqueIdentifier>{ed65607e-1561-4624-884b-95c330c32e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Loop">
+      <UniqueIdentifier>{3dc3f700-cdf5-49bb-a6bb-8bfd934699ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Prepare">
+      <UniqueIdentifier>{421d0593-d7bc-4c79-93db-068266fec99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Process">
+      <UniqueIdentifier>{c985af14-b6b1-49db-8e2f-88ca52de1f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Terminal">
+      <UniqueIdentifier>{7ea6f116-6b56-4873-81b9-7a1a58d1f4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols">
+      <UniqueIdentifier>{3037079d-a63a-4026-b7f6-c4e975679d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\Create">
+      <UniqueIdentifier>{443ff1af-841e-4700-8997-cd0d9a6e0bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\End">
+      <UniqueIdentifier>{0a615b12-0841-4950-b8ff-ec73b5c1af07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\If">
+      <UniqueIdentifier>{45e9cd7f-d827-47b4-a075-c4bae8112314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\Print">
+      <UniqueIdentifier>{fa194088-3b82-4a34-9df6-cf4435418ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\Set">
+      <UniqueIdentifier>{b02e7423-8cb3-4b33-bbd6-82834c4f9059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\WhileStart">
+      <UniqueIdentifier>{d9ed818c-db55-4848-ad77-0c90953306d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\WhilteEnd">
+      <UniqueIdentifier>{39816642-b660-4708-9dbc-d140a8c705d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\Start">
+      <UniqueIdentifier>{7d700c8e-d01f-4f55-a8d2-6c9494057399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\IfEnd">
+      <UniqueIdentifier>{ebc323a3-a312-4da3-b822-682ad6f961ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Line">
+      <UniqueIdentifier>{8084d816-4b19-4d97-9dc2-2a5d589ecfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Interpreter">
+      <UniqueIdentifier>{ea47b587-5381-4363-85fb-b85cfc68ee00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\MFCFiles">
+      <UniqueIdentifier>{de2abcd8-e4b3-4043-bbcb-1ec8b8dc6020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\MFCFiles\MainFrame">
+      <UniqueIdentifier>{71160429-a71f-435c-904a-1628bb651409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\MFCFiles\View">
+      <UniqueIdentifier>{284cd3b5-f653-4aff-9eac-a94877d422fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\MFCFiles\Doc">
+      <UniqueIdentifier>{e69544e3-e6b8-4a47-8d57-377fb8f431c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\MFCFiles\App">
+      <UniqueIdentifier>{8fef8837-0101-4e33-8f7f-8971d9d70708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Utility">
+      <UniqueIdentifier>{99365094-8007-4abd-95b7-9b18135aba0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Utility\LockSpliterView">
+      <UniqueIdentifier>{fae5c32b-a3ed-4c07-9581-e21f5349918d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Utility\Dialog">
+      <UniqueIdentifier>{c732be0b-c863-4407-bcbe-defab5da7520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Utility\Dialog\FCDialog">
+      <UniqueIdentifier>{8a307aca-99f3-40b6-b56e-508fa5024719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Dialogs">
+      <UniqueIdentifier>{34a27575-a17f-468f-93b3-7f014bc9478f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Dialogs\CreateVariable">
+      <UniqueIdentifier>{c8943216-65a3-471a-9733-dc1dbdacd3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Dialogs\ConditionCheck">
+      <UniqueIdentifier>{f0ba4889-4dac-443f-b011-0c0859c65671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Dialogs\Allocation">
+      <UniqueIdentifier>{1467fb58-b82c-46f4-b8a0-c1375dfa22ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayView">
+      <UniqueIdentifier>{5914aa82-f676-4c46-b2e0-a386276edac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayView\FlowObject">
+      <UniqueIdentifier>{e61ed19a-2672-4fba-8f61-dcf856d4c9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InterpreterCode">
+      <UniqueIdentifier>{7ace615d-f087-4885-b1ee-29b237130f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Utility\DoubleBuffering">
+      <UniqueIdentifier>{74d7598a-25b7-4466-a08e-16793f27fde9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Dialogs\Output">
+      <UniqueIdentifier>{fa42d58a-ddf9-4124-827d-07efbe635588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Dialogs\Input">
+      <UniqueIdentifier>{dec7a0eb-ba42-4ddc-bac7-d80a0a416aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\Input">
+      <UniqueIdentifier>{8259fcad-a5b7-413c-9545-1fc0296c5931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFlowView\ObjectFlow\Symbol\Symbols\Output">
+      <UniqueIdentifier>{9c3c21e0-1b0b-437b-b868-418064f1e7bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Others\MFCFiles\MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowStreamView.h">
+      <Filter>Others\MFCFiles\View</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowStream.h">
+      <Filter>Others\MFCFiles\App</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowStreamDoc.h">
+      <Filter>Others\MFCFiles\Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTree.h">
+      <Filter>SymbolTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolProperty.h">
+      <Filter>SymbolProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DataIO.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\DataIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Decision.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Decision</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="Prepare.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Prepare</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFlowView.h">
+      <Filter>ObjectFlowView</Filter>
+    </ClInclude>
+    <ClInclude Include="FCCreate.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="FCEnd.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\End</Filter>
+    </ClInclude>
+    <ClInclude Include="FCIf.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\If</Filter>
+    </ClInclude>
+    <ClInclude Include="FCPrint.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="FCSet.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="FCWhileStart.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\WhileStart</Filter>
+    </ClInclude>
+    <ClInclude Include="FCWhileEnd.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\WhilteEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="FCStart.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FCDialog.h">
+      <Filter>Others\Utility\Dialog\FCDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocation.h">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\Allocation</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionCheck.h">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\ConditionCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateVariable.h">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\CreateVariable</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>ObjectFlowView\ObjectFlow\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="LockSpliterView.h">
+      <Filter>Others\Utility\LockSpliterView</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>ObjectFlowView\ObjectFlow\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="FCIfEnd.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\IfEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPropertyView.h">
+      <Filter>ObjectPropertyView</Filter>
+    </ClInclude>
+    <ClInclude Include="ListObject.h">
+      <Filter>ObjectListView\ObjectList</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectListDialog.h">
+      <Filter>ObjectListView\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectListView.h">
+      <Filter>ObjectListView</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayView.h">
+      <Filter>PlayView</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowObject.h">
+      <Filter>PlayView\FlowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFlow.h">
+      <Filter>ObjectFlowView\ObjectFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferDC.h">
+      <Filter>Others\Utility\DoubleBuffering</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectCreation.h">
+      <Filter>Others\Utility\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInput.h">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DataOutput.h">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="FCInput.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FCOutput.h">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionImpl.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionValue.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpreterSymbol.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Paser.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="StatementImpl.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPool.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTable.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+    <ClInclude Include="VM.h">
+      <Filter>InterpreterCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Others\MFCFiles\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowStreamView.cpp">
+      <Filter>Others\MFCFiles\View</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowStream.cpp">
+      <Filter>Others\MFCFiles\App</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowStreamDoc.cpp">
+      <Filter>Others\MFCFiles\Doc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolTree.cpp">
+      <Filter>SymbolTree</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolProperty.cpp">
+      <Filter>SymbolProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DataIO.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\DataIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Decision.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Decision</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="Prepare.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Prepare</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base\Shape\Terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFlowView.cpp">
+      <Filter>ObjectFlowView</Filter>
+    </ClCompile>
+    <ClCompile Include="FCCreate.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="FCEnd.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\End</Filter>
+    </ClCompile>
+    <ClCompile Include="FCIf.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\If</Filter>
+    </ClCompile>
+    <ClCompile Include="FCPrint.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="FCSet.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="FCWhileStart.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\WhileStart</Filter>
+    </ClCompile>
+    <ClCompile Include="FCWhileEnd.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\WhilteEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="FCStart.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FCDialog.cpp">
+      <Filter>Others\Utility\Dialog\FCDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocation.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionCheck.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\ConditionCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateVariable.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\CreateVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="LockSpliterView.cpp">
+      <Filter>Others\Utility\LockSpliterView</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="FCIfEnd.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\IfEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPropertyView.cpp">
+      <Filter>ObjectPropertyView</Filter>
+    </ClCompile>
+    <ClCompile Include="ListObject.cpp">
+      <Filter>ObjectListView\ObjectList</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectListDialog.cpp">
+      <Filter>ObjectListView\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectListView.cpp">
+      <Filter>ObjectListView</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayView.cpp">
+      <Filter>PlayView</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowObject.cpp">
+      <Filter>PlayView\FlowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFlow.cpp">
+      <Filter>ObjectFlowView\ObjectFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferDC.cpp">
+      <Filter>Others\Utility\DoubleBuffering</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectCreation.cpp">
+      <Filter>Others\Utility\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInput.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOutput.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Dialogs\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="FCInput.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FCOutput.cpp">
+      <Filter>ObjectFlowView\ObjectFlow\Symbol\Symbols\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionImpl.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionValue.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Paser.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="StatementImpl.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="StringPool.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolTable.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+    <ClCompile Include="VM.cpp">
+      <Filter>InterpreterCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FlowStream.rc">
+      <Filter>Others\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UserImages.bmp">
+      <Filter>Others\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\FlowStreamDoc.ico">
+      <Filter>Others\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\FlowStream.ico">
+      <Filter>Others\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Others\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Others\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Others\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FlowStream.rc2">
+      <Filter>Others\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Others</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

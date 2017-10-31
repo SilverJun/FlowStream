@@ -1,0 +1,22 @@
+// 시작
+INT xPos
+INT yPos
+INT width
+INT height
+xPos = 50
+yPos = 50
+width = 120
+height = 70
+INT Num
+INT Sum
+Num = 1
+Sum = 0
+while Num <= 10
+{
+Sum += Num
+output Sum
+output "\n"
+Num += 1
+}
+output "End!"
+// 종료
